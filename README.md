@@ -46,7 +46,7 @@ Screenshot coming soon!
 
 Screenshot coming soon!
 
-### The theme I used when creating the [VocaloidDBTool-Swiss-Army-Knife](https://github.com/bread-in-a-can) (Forest-ttk-theme-1.0 Light and Dark, by [rdbende](https://github.com/rdbende/Forest-ttk-theme))
+### The theme Canned-Bread used when creating the [VocaloidDBTool-Swiss-Army-Knife](https://github.com/bread-in-a-can) (Forest-ttk-theme-1.0 Light and Dark, by [rdbende](https://github.com/rdbende/Forest-ttk-theme))
 
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/04ef372b-c52a-45e6-a466-af09ca087816)
 
