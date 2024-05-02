@@ -7,6 +7,7 @@
   <system:Boolean x:Key="IsDarkMode">false</system:Boolean>
 
   <!-- White Key Colors -->
+  <Color x:Key="WhiteKeyNameColor">#FF347c</Color>
   <Color x:Key="WhiteKeyColorLeft">#CACED5</Color>
   <Color x:Key="WhiteKeyColorRight">#CACED5</Color>
 
