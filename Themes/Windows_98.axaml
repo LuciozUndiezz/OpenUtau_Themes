@@ -1,0 +1,70 @@
+<!-- Header Info DONT DELETE -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- Is the theme Dark Mode? -->
+  <system:Boolean x:Key="IsDarkMode">true</system:Boolean>
+
+  <!-- White Key Colors -->
+  <Color x:Key="WhiteKeyNameColor">#BFBFBF</Color>
+  <Color x:Key="WhiteKeyColorLeft">#359494</Color>
+  <Color x:Key="WhiteKeyColorRight">#359494</Color>
+
+  <!-- Black Key Colors -->
+  <Color x:Key="BlackKeyColorLeft">#002F2F</Color>
+  <Color x:Key="BlackKeyColorRight">#002F2F</Color>
+  <Color x:Key="BlackKeyNameColor">#BFBFBF</Color>
+
+
+  <!-- Center Piano Key Colors (like C4, C5) -->
+  <Color x:Key="CenterKeyColorLeft">#3b4c8a</Color>
+  <Color x:Key="CenterKeyColorRight">#3b4c8a</Color>
+  <Color x:Key="CenterKeyNameColor">#BFBFBF</Color>
+
+  <!-- Background Colors -->
+  <Color x:Key="BackgroundColorDisabled">#D0D0D0</Color>
+  <Color x:Key="BackgroundColorPointerOver">#F0F0F0</Color>
+  <Color x:Key="BackgroundColorPressed">#E0E0E0</Color>
+  <!-- White section of UTAU -->
+  <Color x:Key="BackgroundColor">#008080</Color>
+  <!-- Grey section of UTAU -->
+  <Color x:Key="TrackBackgroundAltColor">#006F6F</Color>
+
+  <!-- Text I think??? -->
+  <Color x:Key="ForegroundColor">#ECEFF4</Color>
+  <Color x:Key="ForegroundColorPointerOver">#000000</Color>
+  <Color x:Key="ForegroundColorPressed">#202020</Color>
+  <Color x:Key="ForegroundColorDisabled">#808080</Color>
+
+  <!-- Borders? I gotta look into these more -->
+  <Color x:Key="BorderColor">#707070</Color>
+  <Color x:Key="BorderColorPointerOver">#B0B0B0</Color>
+
+  <!-- UI Button Color -->
+  <Color x:Key="SystemAccentColor">#385075</Color>
+  <!-- PointerOver -->
+  <Color x:Key="SystemAccentColorLight1">#273852</Color>
+  <!-- Pressed -->
+  <Color x:Key="SystemAccentColorDark1">#4a6896</Color>
+
+
+  <!-- Player Bar, Acroll Bar, etc. -->
+  <Color x:Key="NeutralAccentColor">#8FBCBB</Color>
+  <Color x:Key="NeutralAccentColorPointerOver">#6A6250</Color>
+
+  <!-- Note Color (Unselected) -->
+  <Color x:Key="AccentColor1">#BFBFBF</Color>
+  <!-- Note Color (Selected) -->
+  <Color x:Key="AccentColor2">#9F9F9F</Color>
+  <!-- Pitch point color -->
+  <Color x:Key="AccentColor3">#8F8F8F</Color>
+
+  <!-- Colors for specific UI elements -->
+  <Color x:Key="TickLineColor">#235D5D</Color>
+  <Color x:Key="BarNumberColor">#273C3C</Color>
+  <!-- Pitch Color (Finetuning Pitch Parameter) -->
+  <Color x:Key="FinalPitchColor">#8F8F8F</Color>
+
+
+</ResourceDictionary>
