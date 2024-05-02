@@ -11,15 +11,17 @@ IM OPEN TO THEME REQUESTS!
 
 ![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/b62543f7-1c6a-413c-ac0a-c9bdee31f140)
 
+### Nord
+
+![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/9b67cf39-fe95-4918-8780-d00f69956551)
+
+![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/ceed9107-b60c-44ca-8dcb-3cbd23448ed2)
+
 ## The Following themes will be made:
 
 ### catppuccin (mocha, latte)
 
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/a56f1643-cae9-44b9-b806-2e73415544e8)
-
-### Nord
-
-![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/9b67cf39-fe95-4918-8780-d00f69956551)
 
 
 ### Dracula
@@ -29,6 +31,9 @@ IM OPEN TO THEME REQUESTS!
 ### Basic FL Studio
 
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/97617bfc-1e96-45e1-91b2-fbf962eabed7)
+
+![Screenshot 2024-05-01 063229](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/c7c52882-cca3-4e26-9632-e3c967910403)
+
 
 ### Vocaloid (2, 3, 4)
 
