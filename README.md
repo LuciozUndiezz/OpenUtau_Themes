@@ -5,6 +5,12 @@ IM OPEN TO THEME REQUESTS!
 
 ## Finished themes!
 
+Sarukra
+
+![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/742e6d95-846e-42c5-8193-bdd580d1f4c1)
+
+![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/709af38a-6a4b-409a-b157-06472e30edb8)
+
 ### GruvBox
 
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/0bc5f7e1-f15c-4031-bf94-b0412a578227)
@@ -68,10 +74,6 @@ idk it doesn't really lok right hhh
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/04ef372b-c52a-45e6-a466-af09ca087816)
 
 ### UTAUColors themes (by idk sorry, will update when found)
-
-Sarukra
-
-![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/742e6d95-846e-42c5-8193-bdd580d1f4c1)
 
 Aqua
 
