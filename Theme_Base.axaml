@@ -23,11 +23,11 @@
 
 
   <!-- Background Colors -->
-  <Color x:Key="BackgroundColor">#33434D</Color>
+  <Color x:Key="BackgroundColorDisabled">#D0D0D0</Color>
   <Color x:Key="BackgroundColorPointerOver">#F0F0F0</Color>
   <Color x:Key="BackgroundColorPressed">#E0E0E0</Color>
   <!-- White section of UTAU -->
-  <Color x:Key="BackgroundColorDisabled">#D0D0D0</Color>
+  <Color x:Key="BackgroundColor">#33434D</Color>
   <!-- Grey section of UTAU -->
   <Color x:Key="TrackBackgroundAltColor">#2B3B45</Color>
 
