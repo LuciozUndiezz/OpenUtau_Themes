@@ -15,6 +15,13 @@
   <Color x:Key="BlackKeyColorRight">#484C53</Color>
   <Color x:Key="BlackKeyNameColor">#FFFFFF</Color>
 
+
+  <!-- Center Piano Key Colors (like C4, C5) -->
+  <Color x:Key="CenterKeyColorLeft">#FFDDE6</Color>
+  <Color x:Key="CenterKeyColorRight">#FFCEDC</Color>
+  <Color x:Key="CenterKeyNameColor">#FF347C</Color>
+
+
   <!-- Background Colors -->
   <Color x:Key="BackgroundColor">#33434D</Color>
   <Color x:Key="BackgroundColorPointerOver">#F0F0F0</Color>
@@ -58,12 +65,6 @@
   <Color x:Key="BarNumberColor">#66DD66</Color>
   <!-- Pitch Color (Finetuning Pitch Parameter) -->
   <Color x:Key="FinalPitchColor">#C0C0C0</Color>
-
-
-  <!-- Center Piano Key Colors (like C4, C5) -->
-  <Color x:Key="CenterKeyColorLeft">#FFDDE6</Color>
-  <Color x:Key="CenterKeyColorRight">#FFCEDC</Color>
-  <Color x:Key="CenterKeyNameColor">#FF347C</Color>
 
 
 </ResourceDictionary>
