@@ -3,6 +3,14 @@ Themes I've made for the Openutau program. There will be a tutorial on how to us
 
 IM OPEN TO THEME REQUESTS!
 
+## Finished themes!
+
+### GruvBox
+
+![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/0bc5f7e1-f15c-4031-bf94-b0412a578227)
+
+![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/b62543f7-1c6a-413c-ac0a-c9bdee31f140)
+
 ## The Following themes will be made:
 
 ### catppuccin (mocha, latte)
@@ -13,9 +21,6 @@ IM OPEN TO THEME REQUESTS!
 
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/9b67cf39-fe95-4918-8780-d00f69956551)
 
-### GruvBox
-
-![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/0bc5f7e1-f15c-4031-bf94-b0412a578227)
 
 ### Dracula
 
