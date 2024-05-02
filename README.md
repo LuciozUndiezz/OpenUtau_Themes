@@ -17,6 +17,15 @@ IM OPEN TO THEME REQUESTS!
 
 ![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/ceed9107-b60c-44ca-8dcb-3cbd23448ed2)
 
+### Windows 98 (by OngakuCD on UTAForum)
+
+idk it doesn't really lok right hhh
+
+![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/b16ab7b5-e704-4d46-b3e1-9b675cb6d999)
+
+![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/e7aa460c-a636-4020-bbae-3bab24a26d4a)
+
+
 ## The Following themes will be made:
 
 ### catppuccin (mocha, latte)
@@ -42,11 +51,6 @@ IM OPEN TO THEME REQUESTS!
 ### Vocaloid (5)
 
 ![image](https://github.com/bread-in-a-can/OpenUtau_Themes/assets/124006393/48580b32-935a-4591-b7ea-53ae0fe22f2b)
-
-
-### Windows 98 (by OngakuCD on UTAForum)
-
-![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/b16ab7b5-e704-4d46-b3e1-9b675cb6d999)
 
 ### Sweet orange (Light and Dark, by MaMochii on UtaForum)
 
