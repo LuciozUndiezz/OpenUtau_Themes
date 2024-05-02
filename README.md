@@ -1,6 +1,8 @@
 # OpenUtau_Themes
 Themes I've made for the Openutau program. There will be a tutorial on how to use the themes (from source code) in the Wiki
 
+IM OPEN TO THEME REQUESTS!
+
 ## The Following themes will be made:
 
 ### catppuccin (mocha, latte)
