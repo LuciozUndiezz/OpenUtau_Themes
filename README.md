@@ -25,7 +25,7 @@ Sakura
 
 ### Windows 98 (by OngakuCD on UTAForum)
 
-idk it doesn't really lok right hhh
+idk it doesn't really look right hhh
 
 ![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/b16ab7b5-e704-4d46-b3e1-9b675cb6d999)
 
