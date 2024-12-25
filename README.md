@@ -5,7 +5,7 @@ IM OPEN TO THEME REQUESTS!
 
 ## Finished themes!
 
-Sarukra
+Sakura
 
 ![image](https://github.com/LuciozUndiezz/OpenUtau_Themes/assets/168614552/742e6d95-846e-42c5-8193-bdd580d1f4c1)
 
