@@ -8,6 +8,8 @@
     
 <!-- Background -->
   <Color x:Key="BackgroundColor">#303030</Color>
+    <!-- Alt BG Color -->
+  <Color x:Key="TrackBackgroundAltColor">#404040</Color>
   <Color x:Key="BackgroundColorPointerOver">#505050</Color>
   <Color x:Key="BackgroundColorPressed">#707070</Color>
   <Color x:Key="BackgroundColorDisabled">#404040</Color>
@@ -44,8 +46,6 @@
   <Color x:Key="BarNumberColor">#D0D0D0</Color>
   <!-- Pitch Color (Finetuning Pitch Parameter) -->
   <Color x:Key="FinalPitchColor">#D0D0D0</Color>
-  <!-- Alt Track Note Color -->
-  <Color x:Key="TrackBackgroundAltColor">#404040</Color>
 
   <!--Keyboard Background-->
   <Color x:Key="WhiteKeyColorLeft">#CC2A63</Color>
