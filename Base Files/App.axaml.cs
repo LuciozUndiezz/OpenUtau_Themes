@@ -1,8 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading;
 using Avalonia;
 using Avalonia.Controls;
@@ -11,10 +10,8 @@ using Avalonia.Markup.Xaml;
 using Avalonia.Markup.Xaml.Styling;
 using Avalonia.Styling;
 using OpenUtau.App.Views;
-using OpenUtau.Classic;
 using OpenUtau.Core;
 using Serilog;
-using YamlDotNet.Core.Tokens;
 
 namespace OpenUtau.App {
     public class App : Application {
@@ -23,15 +20,13 @@ namespace OpenUtau.App {
             AvaloniaXamlLoader.Load(this);
             InitializeCulture();
             InitializeTheme();
-            InitOpenUtau();
-            InitAudio();
             Log.Information("Initialized application.");
         }
 
         public override void OnFrameworkInitializationCompleted() {
             Log.Information("Framework initialization completed.");
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop) {
-                desktop.MainWindow = new MainWindow();
+                desktop.MainWindow = new SplashWindow();
             }
 
             base.OnFrameworkInitializationCompleted();
@@ -52,7 +47,7 @@ namespace OpenUtau.App {
                 SetLanguage("en-US");
             }
 
-            // Force using InvariantCulture to prevent issues caused by culture dependent string conversion, especially for floating point numbers.
+            // Force using InvariantCulture to prevent issues caused by culture-dependent string conversion, especially for floating point numbers.
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
             Thread.CurrentThread.CurrentUICulture = CultureInfo.InvariantCulture;
             Log.Information("Initialized culture.");
@@ -91,80 +86,33 @@ namespace OpenUtau.App {
 
         static void InitializeTheme() {
             Log.Information("Initializing theme.");
-            SetTheme();
+            SetTheme(Core.Util.Preferences.Default.Theme);
             Log.Information("Initialized theme.");
         }
 
-        public static void SetTheme() {
+        public static void SetTheme(int themePreference) {
             if (Current == null) {
                 return;
             }
-            // Add Themes here DON'T DELETE LIGHT OR DARK
-
-            var light = (IResourceProvider)Current.Resources["themes-light"]!;
-            var dark = (IResourceProvider)Current.Resources["themes-dark"]!;
-            var test = (IResourceProvider)Current.Resources["themes-INTERNALNAME"]!;
-
-            // Add Themes here DON'T DELETE LIGHT OR DARK
-
-            Current.Resources.MergedDictionaries.Remove(light);
-            Current.Resources.MergedDictionaries.Remove(dark);
-            Current.Resources.MergedDictionaries.Remove(INTERNALNAME);
-
-            // Add Themes here DON'T DELETE LIGHT OR DARK
-
-            // Remove all previously added themes
-            foreach (var dictionary in Current.Resources.MergedDictionaries.ToList()) {
-                if (dictionary is IResourceProvider resourceProvider) {
-                    if (resourceProvider == light || resourceProvider == dark || resourceProvider == INTERNALNAME) {
-                        Current.Resources.MergedDictionaries.Remove(resourceProvider);
-                    }
-                }
+            
+            // Themes
+            var themes = new Dictionary<int, (IResourceProvider Theme, ThemeVariant? Variant)> {
+                { 0, ((IResourceProvider)Current.Resources["themes-dark"]!, ThemeVariant.Dark) },
+                { 1, ((IResourceProvider)Current.Resources["themes-light"]!, ThemeVariant.Light) },
+                { 2, ((IResourceProvider)Current.Resources["themes-breeze"]!, ThemeVariant.Dark) }
+            };
+            // Themes
+            
+            foreach (var theme in themes.Values.Select(t => t.Theme)) {
+                Current.Resources.MergedDictionaries.Remove(theme);
             }
 
-            // Add Themes here DON'T DELETE LIGHT OR DARK
-
-            if (Core.Util.Preferences.Default.Theme == 0) {
-                Current.Resources.MergedDictionaries.Add(light);
-                Current.RequestedThemeVariant = ThemeVariant.Light;
-            } else if (Core.Util.Preferences.Default.Theme == 1) {
-                Current.Resources.MergedDictionaries.Add(dark);
-                Current.RequestedThemeVariant = ThemeVariant.Dark;
-            } else if (Core.Util.Preferences.Default.Theme == 2) {
-                Current.Resources.MergedDictionaries.Add(INTERNALNAME);
+            if (themes.TryGetValue(themePreference, out var selected)) {
+                Current.Resources.MergedDictionaries.Add(selected.Theme);
+                Current.RequestedThemeVariant = selected.Variant;
             }
-            // Add other theme options in a similar manner
 
-            // Reload the theme manager to apply changes
             ThemeManager.LoadTheme();
-
-        }
-
-        public static void InitOpenUtau() {
-            Log.Information("Initializing OpenUtau.");
-            ToolsManager.Inst.Initialize();
-            SingerManager.Inst.Initialize();
-            DocManager.Inst.Initialize();
-            DocManager.Inst.PostOnUIThread = action => Avalonia.Threading.Dispatcher.UIThread.Post(action);
-            Log.Information("Initialized OpenUtau.");
-        }
-
-        public static void InitAudio() {
-            Log.Information("Initializing audio.");
-            if (!OS.IsWindows() || Core.Util.Preferences.Default.PreferPortAudio) {
-                try {
-                    PlaybackManager.Inst.AudioOutput = new Audio.PortAudioOutput();
-                } catch (Exception e1) {
-                    Log.Error(e1, "Failed to init PortAudio");
-                }
-            } else {
-                try {
-                    PlaybackManager.Inst.AudioOutput = new Audio.NAudioOutput();
-                } catch (Exception e2) {
-                    Log.Error(e2, "Failed to init NAudio");
-                }
-            }
-            Log.Information("Initialized audio.");
         }
     }
 }

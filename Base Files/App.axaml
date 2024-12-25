@@ -24,11 +24,13 @@
       <ResourceInclude x:Key="strings-vi-VN" Source="/Strings/Strings.vi-VN.axaml"/>
       <ResourceInclude x:Key="strings-zh-CN" Source="/Strings/Strings.zh-CN.axaml"/>
       <ResourceInclude x:Key="strings-zh-TW" Source="/Strings/Strings.zh-TW.axaml"/>
-      <ResourceInclude x:Key="strings-th-TH" Source="/Strings/Strings.th-TH.axaml"/>
-      <!-- Add Themes here! DON'T DELETE LIGHT OR DARK THEME -->
-      <ResourceInclude x:Key="themes-light" Source="/Colors/LightTheme.axaml"/>
+      <ResourceInclude x:Key="strings-th-TH" Source="/Strings/Strings.th-TH.axaml"/>\
+      <!-- Themes -->
       <ResourceInclude x:Key="themes-dark" Source="/Colors/DarkTheme.axaml"/>
-      <ResourceInclude x:Key="themes-INTERNAL NAME" Source="/Colors/FILENAME.axaml"/>
+      <ResourceInclude x:Key="themes-light" Source="/Colors/LightTheme.axaml"/>
+      <ResourceInclude x:Key="themes-breeze" Source="/Colors/Breeze.axaml"/>
+      <!-- Themes -->
+
       <ResourceDictionary.MergedDictionaries>
         <ResourceInclude Source="/Colors/Brushes.axaml"/>
       </ResourceDictionary.MergedDictionaries>
